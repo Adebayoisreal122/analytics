@@ -1,0 +1,272 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    gap: 20px;
+    background-color: rgb(250,250,250);
+    height: 10vh;
+    box-shadow: 0px 1px 5px black;
+    position: relative;
+}
+.google a {
+    display: flex;
+    gap: 10px;
+    font-family: Roboto, sans-serif;
+    text-decoration: none;
+    color: rgb(79,74,74);
+    margin-top: 10px;
+    width: 400px;
+    margin-left: 30px;
+    height: 50px;
+    font-size: 25px;
+}
+.google a .analy {
+    margin-top: 5px;
+}
+.google a #go {
+    margin-top: 10px;
+}
+.email a #mal {
+    width: 37px;
+    height: 37px;
+    border-radius: 17.5px;
+}
+.email a {
+    display: flex;
+    gap: 20px;
+    margin-left: 550px;
+    text-decoration: none;
+    color: slategrey;
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: Roboto, sans-serif;
+}
+.email a .ade {
+    margin-top: 10px;
+    text-decoration: none;
+}
+.grid-container {
+    background-color: beige;
+}
+.gridpage:nth-child(1) {
+    background-color: rgb(255,119,0);
+    width: 100%;
+    height: 10vh;
+    padding: 15px;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gridpage:nth-child(1) a{
+    color: aliceblue;
+    border: none;
+}
+.gridpage:nth-child(2) {
+    background-color: rgb(250,250,250);
+    width: 100%;
+    height: 64vh;
+    display: flex;
+}
+.gridpage:nth-child(2) .page1{
+    /* text-align: center; */
+    padding: 50px;
+    padding-left: 60px;
+    margin-left: 44px;
+}
+.gridpage:nth-child(2) .page1 h1 {
+    font-family: Roboto, sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 400;
+}
+.gridpage:nth-child(2) .page1 p{
+font-family: Roboto, sans-serif;
+font-size: 20px;
+font-style: normal;
+font-variant-caps: normal;
+font-variant-east-asian: normal;
+font-variant-ligatures: normal;
+font-variant-numeric: normal;
+font-weight: 400;
+}
+.gridpage:nth-child(3) {
+    background-color: rgb(66,133,244);
+    width: 100%;
+    height: 163vh;
+    padding: 50px;
+} 
+.gridpage:nth-child(3) h2 {
+    margin-left: 55px;
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: aliceblue;
+
+}
+.box2{
+    background-color: white;
+    padding: 10px;
+}
+.contain {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 70vh 70vh;
+    margin-top: 30px;
+    align-self: center;
+    margin: 20px 50px;
+}
+.box2 a {
+    text-decoration: none;
+font-family: Roboto, sans-serif;
+font-size: 18px;
+font-weight: 400px;
+color: black;
+margin-top: 60px;
+}
+.box2 p {
+font-family: Roboto, sans-serif;
+font-size: 16px;
+font-weight: 400;
+}
+.box2 #arrow {
+    align-items: self-end;
+}
+.gridpage:nth-child(4) {
+    /* background-color:floralwhite; */
+    padding-top: 87px;
+}
+.instruct {
+    background-color: rgb(250,250,250);
+    height: 200vh;
+}
+.instruct-pic {
+    background-color: rgb(242,242,242);
+    display: grid;
+    margin: 87px;
+    display: flex;
+    height: 33vh;
+    box-shadow: 0px 2px 7px slategray;
+}
+.picname{
+    margin-left: 40px;
+    margin-top: 15px;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+
+}
+.para {
+    margin-top: 20px;
+}
+.h33 {
+    /* margin-top: 40px; */
+    margin-left: 87px;
+}
+.h33 h3{
+font-family: Roboto, sans-serif;
+font-size: 30px;
+font-weight: 400;
+
+}
+.overview {
+    font-family: Roboto, sans-serif;
+font-size: 17px;
+font-weight: 100;
+}
+.arange {
+    display: flex;
+    gap: 15px;
+    position: relative;
+    justify-content: center ;
+    margin-top: 40px;
+}
+.getting {
+    width: 280px;
+    height: 150px;
+    background-color: rgb(242,242,242) ;
+    box-shadow: 1px 2px 5px slategray;
+}
+.inside img {
+    margin-top: 15px;
+    margin-left: 100px;
+}
+.inside p{
+    text-align: center;
+    margin-top: 10PX;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.arange a {
+    text-decoration: none;
+}
+#two {
+    text-decoration: none;
+    color: rgb(37,37,37);
+}
+.bot
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(242,242,242) ;
+    gap: 60px;
+    margin-top: 0px; 
+}
+.gridpage:nth-child(5)
+{
+background-color: rgb(242,242,242);
+}
+
+.add {
+    margin: 30px;
+    margin-left: 100px;
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    color: rgb(37,37,37);
+}
+.goog {
+    height: 24vh;
+    width: 15vw;
+    padding: 20px;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    color: rgb(37,37,37);
+}
+.dev {
+    margin-left: 10px;
+}
+@media screen and (max-width: 475px){
+    header {
+        display: flex;
+        gap: 10px;
+        background-color: rgb(250,250,250);
+        height: 5vh;
+        box-shadow: 0px 1px 5px black;
+        position: relative;
+    }
+    .google a {
+        display: flex;
+        gap: 5px;
+        font-family: Roboto, sans-serif;
+        text-decoration: none;
+        color: rgb(79,74,74);
+        margin-top: 5px;
+        width: 100%;
+        margin-left: 10px;
+        height: 10vh;
+        font-size: 10px;
+    }
+}
